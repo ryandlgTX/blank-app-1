@@ -99,7 +99,7 @@ st.title("Learning Goal and Narrative Generator")
 st.subheader("Generate structured learning goals and section narratives from learning targets.")
 
 # Text input for learning targets
-learning_targets = st.text_area("Enter the learning targets:")
+learning_targets = st.text_area("Enter the learning targets for all lessons in the section you'd like content for:")
 
 # Generate response
 if st.button("Generate Content"):
